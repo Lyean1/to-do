@@ -7,7 +7,7 @@ interface AppProps {
 const App: React.FC<AppProps> = (props) => {
   return (
     <div className="todoapp stack-large">
-      <h1>TodoMatic</h1>
+      <h1>Lyean's ToDo</h1>
       <form>
         <h2 className="label-wrapper">
           <label htmlFor="new-todo-input" className="label__lg">
