@@ -104,3 +104,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.btn-group > * {
+  flex: 1 1 49%;
+}
+.btn-group > * + * {
+  margin-left: 0.8rem;
+}
+.label-wrapper {
+  margin: 0;
+  flex: 0 0 100%;
+  text-align: center;
+}
